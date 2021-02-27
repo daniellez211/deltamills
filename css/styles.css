@@ -1,0 +1,218 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 100;
+  padding-bottom:5%;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #57a0c3;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Krona One', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.form-button {
+  margin-bottom: 10%;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 12%;
+  text-align: left;
+}
+
+.title-image {
+  width: 90%;
+  position: absolute;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+}
+
+.feature-item {
+  padding: 4.5% 3%;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  color: #57a0c3;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: hsl(199, 46%, 75%);
+}
+
+/* Gallery */
+
+.project-image {
+  width: 100%;
+}
+
+.project-desc {
+  margin-top: 15%;
+}
+
+.project-name {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.credit {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 100;
+}
+
+.credit-link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.credit-link:hover {
+  color: hsl(199, 46%, 75%);
+  text-decoration: none;
+}
+
+/* Press */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.names {
+  font-size:1.5rem;
+}
+
+/* Who's Who */
+#directory {
+  padding: 100px;
+}
+
+.directory-title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body {
+  word-break: keep-all;
+}
+
+/* Call to Action */
+#cta {
+  padding: 7% 20% 5%;
+}
+
+.cta-text {
+  font-weight: 900;
+}
+
+/* Footer */
+
+.footer-text {
+  color: #8f8f8f;
+  font-size: 0.75rem;
+}
+
+.social-icons {
+  padding: 0 0.5rem 1.5rem;
+}
+
+/* Media Query Breakpoints */
+@media (max-width: 992px) {
+  .title-image {
+    width: 90%;
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .small-center {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 662px) {
+  .navbar-brand {
+    font-family: 'Krona One', sans-serif;
+    font-size: 1rem;
+  }
+}
